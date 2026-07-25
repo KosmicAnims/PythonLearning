@@ -1,10 +1,6 @@
 # Set is a collection of unordered and un-indexed distinct elements.sooo kinda like list but without everything cool
 
 #making sets
-
-
-
-
 setA = {}
 setB = set()
 setC = {'item1', 'item2', 'item3'}
