@@ -77,10 +77,10 @@ person = {
 
 # accessing items in a dictionary
 
-print(person['first_name']) #accessing the value of a key)
-print(person['last_name']) #accessing the value of a key)
-print(person['age']) #accessing the value of a key)
-print(person['skills'][2]) #accessing the value of a key)
+print(person['first_name']) #accessing the value of a key
+print(person['last_name']) 
+print(person['age']) 
+print(person['skills'][2]) 
 
 #bettter way is .get() method
 # u cant access via value btw
@@ -90,7 +90,7 @@ print(person.get('skills')[1]) #accessing the value connected to the key
 
 #adding items to a dictionary
 
-person['country'] = 'USA' #adding a new key-value pair to the dictionary)
+person['country'] = 'USA' #adding a new key-value pair to the dictionary
 person['skills'].append('CSS') #adding a new value to the list connected to the key 'skills'
 
 #converting a dictionary to a list
